@@ -4,7 +4,7 @@ This project's goal was to practice SQL queries while working with real-world da
 
 **About the dataset**
 
-Available in [Kaggle]([url](https://www.kaggle.com/datasets/heesoo37/120-years-of-olympic-history-athletes-and-results)), the tables used are the following:
+Available in [Kaggle](https://www.kaggle.com/datasets/heesoo37/120-years-of-olympic-history-athletes-and-results), the tables used are the following:
 - ****athlete_events.csv****, containing data on the modern Olympic Games including all Summer and Winter Games from Athens 1896 to Rio 2016 and columns such as name, sex, age, weight, height, team, noc, games, year, etc;
 - ****noc_regions.csv****, containing three columns: noc (National Olympic Committee 3 letter code), country name and notes.
 

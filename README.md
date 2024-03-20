@@ -1,4 +1,4 @@
-# olympics-history-case-study
+# Olympics History - Data Analysis Case Study
 
 This project's goal is to practice SQL queries while working with real-world dataset and questions. I kept track of the steps I took in the data analysis process, from cleaning, to loading, querying and analysing, and they can be seen in the files below.
 

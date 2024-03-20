@@ -1,0 +1,17 @@
+## csv file /athlete_events_cleaned was cleaned using google sheets
+
+	steps taken:
+
+1. filter blank spaces to better understand the data from all columns
+
+> changes made:
+	- column NOC w/ SGR values had no region name, so 'Singapore' was added in 'Region' column
+> decided to keep age, height and weight with NA (instead of changing to 0 for example) and chose the datatype on MySQL as varchar;
+avg for instance could be calculated excluding 'NA'? because adding 0 or null would also change the result of the calculation; seems to be the correct path as NA means unknown data. a comment could be added specifying that the calculation was made using the information that we do have on the table, not considering the NA values. maybe, if found necessary, NA rows could be counted to see what was actually calculated.
+
+2. delete special characters from all columns, as it could potentially lead to MySQL misreading the delimitors when importing the data
+	- special characters deleted: [!@#$%^&*()_+',"]
+
+3. add 'Region' column based on a different table (imported to the same document, uploaded in a second sheet) using the formula =iferror(vlookup(H2,athlete_events!A$2:P$271,2,false), " ")
+
+4. trim all whitespaces

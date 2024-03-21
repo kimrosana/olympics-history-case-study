@@ -10,8 +10,4 @@ Available in [Kaggle](https://www.kaggle.com/datasets/heesoo37/120-years-of-olym
 
 **About the files**
 
-The files include codes used in MySQL and txt describing the process.
-
-The questions were taken from [this website](https://techtfq.com/blog/practice-writing-sql-queries-using-real-dataset), and I changed the last two to talk about the country I grew up in, Brazil. I decided to separate each question into its own SQL file in order to focus on the visualization of the code, making it cleaner and more readable.
-
-Finally, the visualization was done using Power BI desktop. However, as I have no corporate account and cannot publish the work I have done, I decided to make the file downloadable as well.
+The files include codes used in MySQL and texts describing the process. I decided to separate each question into its own SQL file in order to focus on the visualization of the code, making it cleaner and more readable.
